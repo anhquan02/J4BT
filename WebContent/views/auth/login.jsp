@@ -14,7 +14,7 @@
 	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 	        <li class="nav-item">
-	          <a class="nav-link active" aria-current="page" href="#">Home</a>
+	          <a class="nav-link active" aria-current="page" href="/Assignment_BanThe/home">Home</a>
 	        </li>
 	      </ul>
 	    </div>
@@ -22,10 +22,10 @@
 	</nav>
 	
 	<div>
-		<form class="col-6 offset-3 mt-5" method="POST" action="/my_demo_2/login" >
+		<form class="col-6 offset-3 mt-5" method="POST" action="/Assignment_BanThe/login" >
 		  <div class="mb-3">
-		    <label for="email" class="form-label">Username</label>
-		    <input type="email" class="form-control" id="email" name="email">
+		    <label for="username" class="form-label">Username</label>
+		    <input type="text" class="form-control" id="username" name="username">
 		  </div>
 		  <div class="mb-3">
 		    <label for="password" class="form-label">Password</label>

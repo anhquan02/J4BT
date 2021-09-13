@@ -33,8 +33,8 @@
 							type="text" class="form-control" id="fullname" name="fullname" />
 					</div>
 					<div class="mt-3">
-						<label for="number" class="form-label">Username</label> <input
-							type="number" class="form-control" id="username" name="username" />
+						<label for="Username" class="form-label">Username</label> <input
+							type="text" class="form-control" id="username" name="username" />
 					</div>
 					<div class="mt-3">
 						<label for="email" class="form-label">Email</label> <input

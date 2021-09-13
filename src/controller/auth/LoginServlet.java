@@ -45,9 +45,10 @@ public class LoginServlet extends HttpServlet {
 		
 		if(user != null ) {
 			if(user.getAdmin()) {
-				request.getRequestDispatcher("/views/admin/index.jsp").forward(request, response);
+				response.sendRedirect(request.getContextPath()+"/admin/users");
+				return;
 			}
-			request.getRequestDispatcher("/views/index.jsp").forward(request, response);
+			response.sendRedirect(request.getContextPath()+"/home");
 		}else {
 			doGet(request, response);
 		}

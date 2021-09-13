@@ -24,11 +24,15 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="/Assignment_BanThe/home">Home</a></li>
+					<li class="nav-item"><a class="nav-link active"
 						aria-current="page" href="/Assignment_BanThe/admin/users">User</a></li>
 					<li class="nav-item"><a class="nav-link active"
-						aria-current="page" href="/Assignment_BanThe/admin/danhmuc">Danh mục</a></li>
+						aria-current="page" href="/Assignment_BanThe/admin/danhmuc">Danh
+							mục</a></li>
 					<li class="nav-item"><a class="nav-link active"
-						aria-current="page" href="/Assignment_BanThe/admin/sanpham">Sản phẩm</a></li>
+						aria-current="page" href="/Assignment_BanThe/admin/sanpham">Sản
+							phẩm</a></li>
 				</ul>
 			</div>
 	</nav>

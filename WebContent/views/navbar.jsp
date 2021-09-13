@@ -39,11 +39,11 @@
 								</c:forEach>
 							</ul></li>
 					</ul>
-					<form class="d-flex">
+					<form class="d-flex" action="">
 						<button class="" type="submit">
 							<ion-icon name="cart"></ion-icon>
 						</button>
-						<button class="btn btn-outline-success" type="submit">Login</button>
+						<a class="btn btn-outline-secondary" href="/Assignment_BanThe/login" role="button">Login</a>
 					</form>
 				</div>
 			</div>
